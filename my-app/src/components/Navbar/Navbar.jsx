@@ -1,9 +1,12 @@
 import "./navbar.scss"
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <>
-            <nav></nav>
+            <nav>
+                Voici la bar de navigation
+                {props.children}
+            </nav>
         </>
     )
 }
