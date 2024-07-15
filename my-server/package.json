@@ -1,0 +1,18 @@
+{
+  "name": "my-server",
+  "version": "1.0.0",
+  "description": "La V2 de mon premier projet de ecommerce en avec nodejs-react-mongodb",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
+    "stripe": "^16.2.0"
+  }
+}
