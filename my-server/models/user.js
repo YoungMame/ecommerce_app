@@ -15,9 +15,12 @@ const userSchema = mongoose.Schema(
             type: Boolean,
             required: true
         },
+        validated : {
+            type: Boolean,
+            default: false
+        },
         basket : {
             type: String,
-            required: true,
             default: "[]"
         },
         firstname : {
@@ -28,9 +31,17 @@ const userSchema = mongoose.Schema(
             type: String,
             required: true
         },
-        birthday : {
+        birthdate : {
             type: Date,
             required: true
+        },
+        phone : {
+            type:String,
+            required: false
+        },
+        lang : {
+            type:String,
+            required: false
         },
     },
     {
